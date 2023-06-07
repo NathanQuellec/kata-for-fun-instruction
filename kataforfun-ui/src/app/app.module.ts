@@ -25,7 +25,8 @@ import { BackEndInstructionComponent } from './back-end-instruction/back-end-ins
     BrowserModule, ReactiveFormsModule, HttpClientModule,
     RouterModule.forRoot([
       { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', component: HomeComponent }
+      { path: 'home', component: HomeComponent },
+      { path: 'kata-for-fun', component: KataForFunComponent },
     ])
   ],
   providers: [

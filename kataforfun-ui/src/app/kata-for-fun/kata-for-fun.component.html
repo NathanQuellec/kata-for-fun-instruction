@@ -1,6 +1,13 @@
 <div>
 <div class="container">
-    <h2>Already converted values : </h2>
+    <h2>Already converted values :</h2>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success" 
+            style="margin-bottom: 20px; padding: 15px;"
+            *ngFor="let value of convertedValues">
+          {{value.numberToConvert}} and the result is {{value.result}}
+        </li>
+    </ul>
 </div>
 <app-kata-for-fun-form (submitNumberOutput)="convertNumber($event)"></app-kata-for-fun-form>
 </div>

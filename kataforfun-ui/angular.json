@@ -121,5 +121,8 @@
       }
     }
   },
-  "defaultProject": "kataforfun-ui"
+  "defaultProject": "kataforfun-ui",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -7,7 +7,7 @@ import kotlin.math.abs
 class KataForFunService {
 
    /*   Création de deux dictionnaires, chacun correspondant à un type de règles.
-        Cela nous permettra d'étendre ces règles de manières indépendantes à l'avenir.
+        Cela nous permettra d'étendre ces règles de manière indépendante à l'avenir.
    */ 
 
     private val divisorRulesMap = mapOf(
